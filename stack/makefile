@@ -9,7 +9,7 @@ stack: objects main.cpp
 	g++ -Wall -fsanitize=address stack.o main.cpp -o stack
 
 clean:
-	rm *.o stack
+	rm *.o *.csv stack
 
 all: stack
 

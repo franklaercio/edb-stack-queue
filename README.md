@@ -190,10 +190,10 @@ No exemplo acima, é possível perceber que existem algumas operações principa
 
 Para comparar os dois algoritmos foram utilizadas as instâncias de quantidade de operações de 450, 900, 1800, 3600, 7200, 14400, 28800, 57600, 115200 e 230400. Além disso, dividiu-se em dois casos de testes, um sendo a comparação entre a inserção e o outro sendo a remoção. 
 
-![Stack%20e%20Queue%207f477175a61141fdbb7becea3561ab29/Insero_na_Stack_e_Queue.png](Stack%20e%20Queue%207f477175a61141fdbb7becea3561ab29/Insero_na_Stack_e_Queue.png)
+<img src="assets/Inserção na Stack e Queue.png" alt="Inserção da Stack e Queue" />
 
 Imagem 1: gráfico comparativo da inserção na Stack e Queue.
 
-![Stack%20e%20Queue%207f477175a61141fdbb7becea3561ab29/Remoo_na_Stack_e_Queue.png](Stack%20e%20Queue%207f477175a61141fdbb7becea3561ab29/Remoo_na_Stack_e_Queue.png)
+<img src="assets/Remoção na Stack e Queue.png" alt="Remoção da Stack e Queue" />
 
 Imagem 2: gráfico comparativo de remover na Stack e Queue.

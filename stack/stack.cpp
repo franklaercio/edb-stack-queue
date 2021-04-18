@@ -3,13 +3,13 @@
 #include <iostream>
 
 Stack::Stack(int size) {
-  arr = new int[size];
+  array = new int[size];
   capacity = size;
   top = -1;
 }
 
 Stack::~Stack() {
-  delete[] arr;
+  delete[] array;
 }
 
 void Stack::push(int number) {
@@ -18,7 +18,7 @@ void Stack::push(int number) {
     exit(EXIT_FAILURE);
   }
 
-  arr[++top] = number;
+  array[++top] = number;
 }
 
 int Stack::pop() {
@@ -27,12 +27,12 @@ int Stack::pop() {
     exit(EXIT_FAILURE);
   }
 
-  return arr[top--];
+  return array[top--];
 }
 
 int Stack::peek() {
   if (!isEmpty()) {
-      return arr[top];
+      return array[top];
   } else {
       exit(EXIT_FAILURE);
   }
